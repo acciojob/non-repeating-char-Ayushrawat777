@@ -16,7 +16,7 @@ function firstNonRepeatedChar(string) {
           }
         }
         if (index === string.length - 1) {
-          return 'Null';
+          return Null;
         } else {
           return fnc;
         }
