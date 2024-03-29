@@ -1,10 +1,9 @@
-
 function firstNonRepeatedChar(string) {
         let index = -1;
         let fnc = " ";
 
         if (string.length == 0) {
-        return 'null'
+        return null  
         }
 
         for (let i of string) {
@@ -16,11 +15,10 @@ function firstNonRepeatedChar(string) {
           }
         }
         if (index === string.length - 1) {
-          return "null";
+          return null;
         } else {
           return fnc;
         }
       }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input.toLowerCase())); 
-     
