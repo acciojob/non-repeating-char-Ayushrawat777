@@ -4,7 +4,7 @@ function firstNonRepeatedChar(string) {
         let fnc = " ";
 
         if (string.length == 0) {
-        return "EMPTY STRING"
+        return 'null'
         }
 
         for (let i of string) {
@@ -22,5 +22,5 @@ function firstNonRepeatedChar(string) {
         }
       }
 const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+alert(firstNonRepeatedChar(input.toLowerCase())); 
      
